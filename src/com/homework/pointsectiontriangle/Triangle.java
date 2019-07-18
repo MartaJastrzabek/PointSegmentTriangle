@@ -10,11 +10,6 @@ public class Triangle {
         double length2 = section2.sectionLength();
         double length3 = section3.sectionLength();
 
-        if((length1+length2)>length3 ||(length2+length3)>length1 ||(length1+length3)>length2){
-            return true;
-        }else {
-            return false;
-        }
-
+        return (length1+length2)>length3 ||(length2+length3)>length1 ||(length1+length3)>length2;
     }
 }
