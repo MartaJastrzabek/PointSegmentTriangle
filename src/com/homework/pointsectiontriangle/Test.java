@@ -11,13 +11,18 @@ public class Test {
 
        if(isTriangle){
            System.out.println("You can construct a triangle from: ");
-           System.out.println("Point1: " + point1.getX()+ " , " + point1.getY()
-                   + " Point2: " + point2.getX()+ " , " + point2.getY()
-                   + " Point3: " + point3.getX()+ " , " + point3.getY());
+           System.out.println("Point1: " + point1.getX()+ ", " + point1.getY()
+                   + " Point2: " + point2.getX()+ ", " + point2.getY()
+                   + " Point3: " + point3.getX()+ ", " + point3.getY());
        } else {
            System.out.println("You cannot construct triangle from provided points.");
        }
 
+        System.out.println(point1.checkPlusXplusY());
+        System.out.println(point2.check00());
+        System.out.println(point3.checkMinusXplusY());
+
     }
+
 
 }

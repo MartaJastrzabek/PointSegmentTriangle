@@ -29,58 +29,30 @@ public class Point {
     }
 
     public boolean checkMinusXplusY(){
-        if(x<0 && y>0){
-            return true;
-        } else {
-            return false;
-        }
+        return x<0 && y>0;
     }
 
     public boolean checkMinusXminusY(){
-        if(x<0 && y<0){
-            return true;
-        } else {
-            return false;
-        }
+        return x<0 && y<0;
     }
 
     public boolean checkPlusXplusY(){
-        if(x>0 && y>0){
-            return true;
-        } else {
-            return false;
-        }
+        return x>0 && y>0;
     }
 
     public boolean checkPlusXminusY(){
-        if(x>0 && y<0){
-            return true;
-        } else {
-            return false;
-        }
+        return x>0 && y<0;
     }
 
     public boolean checkX(){
-        if(x==0){
-            return true;
-        } else {
-            return false;
-        }
+        return x==0;
     }
 
     public boolean checkY(){
-        if(y==0){
-            return true;
-        } else {
-            return false;
-        }
+        return y==0;
     }
 
     public boolean check00(){
-        if(x==0 && y==0){
-            return true;
-        } else {
-            return false;
-        }
+        return x==0 && y==0;
     }
 }
